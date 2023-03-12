@@ -6,7 +6,7 @@ PASS='rfplusvi_alldatavip';
 DBNAME='rfplusvi_alldatavip';
 PORT_TCP='5666';
 PORT_UDP='5666';
-SUB_DOMAIN=ushf.alldatavip.xyz
+SUB_DOMAIN=erga.alldatavip.xyz
 MYIP=$(wget -qO- icanhazip.com);
 server_ip=$(curl -s https://api.ipify.org)
 timedatectl set-timezone Asia/Riyadh
